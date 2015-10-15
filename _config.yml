@@ -1,0 +1,20 @@
+# Site settings
+title: Jim Myhrberg (jimeh)
+name: Jim Myhrberg
+nickname: jimeh
+email: pbagnpg\100wvzru\056zr
+description: Crazy-Ass Software Engineering Mercenary
+baseurl: "" # the subpath of your site, e.g. /blog/
+hostname: jimeh.me # used to determine if google analytics should be triggered
+url: http://jimeh.me # the base hostname & protocol for your site
+permalink: /:title/
+cv_url: http://assets.jimeh.me/jim-myhrberg-resume.pdf
+twitter_username: jimeh
+github_username: jimeh
+linkedin_username: jimeh
+facebook_username: jimeh
+flickr_username: jimeh
+lastfm_username: jimeh
+
+# Build settings
+markdown: kramdown
