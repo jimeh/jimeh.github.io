@@ -1,7 +1,7 @@
 # Site settings
 title: Jim Myhrberg (jimeh)
-name: Jim Myhrberg
-nickname: jimeh
+person_name: Jim Myhrberg
+person_nickname: jimeh
 email: pbagnpg\100wvzru\056zr
 mailto: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6s%6r%74%61%63%74@%6n%69%6q%65%68.%6q%65"
 description: Crazy-Ass Software Engineering Mercenary
@@ -9,6 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 hostname: jimeh.me # used to determine if google analytics should be triggered
 url: http://jimeh.me # the base hostname & protocol for your site
 permalink: /:title/
+
 blog_url: https://jimeh.io/
 cv_url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
 vcard_url: http://assets.jimeh.me/jim-myhrberg.vcf
