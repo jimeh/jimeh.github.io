@@ -2,30 +2,26 @@
 layout: default
 ---
 <header class="site-header">
-  <div class="content">
+  <div class="site-header-container">
     <img class="site-avatar" src="{{ "/img/jimeh-4.0.jpg" | prepend: site.baseurl }}">
-    <span class="header-content">
-      <span class="site-name">{{ site.name }}</span>
-      <span class="site-nickname">({{ site.nickname }})</span>
-      <p class="site-description">{{ site.description }}</p>
+    <span class="content">
+      <span class="site-title">
+        <span class="site-name">{{ site.name }}</span>
+        <span class="site-nickname">({{ site.nickname }})</span>
+        <span class="site-description">{{ site.description }}</span>
+      </span>
       <div class="site-links">
         <script type="text/javascript">
-          document.write("<n uers=\"znvygb:{{ site.email }}\"><v pynff=\"sn sn-rairybcr\"><\057v><fcna pynff=\"yvax-grkg\">pbagnpg\100wvzru\056zr<\057fcna><\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-        </script><a href="https://twitter.com/{{ site.twitter_username }}">
-          <i class="fa fa-twitter"></i><span class="link-text">twitter</span>
-        </a><a href="https://github.com/{{ site.github_username }}">
-          <i class="fa fa-github"></i><span class="link-text">github</span>
-        </a><a href="http://www.linkedin.com/in/{{ site.linkedin_username }}">
-          <i class="fa fa-linkedin"></i><span class="link-text">linkedin</span>
-        </a><a href="https://facebook.com/{{ site.facebook_username }}">
-          <i class="fa fa-facebook-square"></i><span class="link-text">facebook</span>
-        </a><a href="https://last.fm/user/{{ site.lastfm_username }}">
-          <i class="fa fa-lastfm"></i><span class="link-text">last.fm</span>
-        </a><a href="https://flickr.com/photos/{{ site.flickr_username }}/">
-          <i class="fa fa-flickr"></i><span class="link-text">flickr</span>
-        </a><a href="{{ site.cv_url }}">
-          <i class="fa fa-file-text-o"></i><span class="link-text">cv</span>
-        </a>
+          document.write("<n uers=\"{{ site.mailto }}\" bapyvpx=\"_tnd\056chfu(['_genpxRirag', 'yvaxGb', 'rznvy', guvf\056uers]);\"><v pynff=\"sn sn-rairybcr\"><\057v><fcna pynff=\"yvax-grkg\">{{ site.email }}<\057fcna><\057n>".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+        </script>
+        <a href="https://twitter.com/{{ site.twitter_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'twitter', this.href]);"><i class="fa fa-twitter"></i><span class="link-text">twitter</span></a>
+        <a href="https://github.com/{{ site.github_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'github', this.href]);"><i class="fa fa-github"></i><span class="link-text">github</span></a>
+        <a href="{{ site.blog_url }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'blog', this.href]);"><i class="fa fa-medium"></i><span class="link-text">blog</span></a>
+        <a href="http://www.linkedin.com/in/{{ site.linkedin_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'linkedin', this.href]);"><i class="fa fa-linkedin"></i><span class="link-text">linkedin</span></a>
+        <a href="https://last.fm/user/{{ site.lastfm_username }}" onclick="_gaq.push(['_trackEvent', 'linkTo', 'last.fm', this.href]);"><i class="fa fa-lastfm"></i><span class="link-text">last.fm</span></a>
+        <a href="https://flickr.com/photos/{{ site.flickr_username }}/" onclick="_gaq.push(['_trackEvent', 'linkTo', 'flickr', this.href]);"><i class="fa fa-flickr"></i><span class="link-text">flickr</span></a>
+        <a href="{{ site.vcard_url }}" onclick="_gaq.push(['_trackEvent', 'download', 'resume', this.href]);"><i class="fa fa-user"></i><span class="link-text">vcard</span></a>
+        <a href="{{ site.cv_url }}" onclick="_gaq.push(['_trackEvent', 'download', 'vcard', this.href]);"><i class="fa fa-file-text-o"></i><span class="link-text">cv (pdf)</span></a>
       </div>
     </span>
   </div>

@@ -9,6 +9,7 @@ $base-line-height:    1.5;
 
 $spacing-unit:        30px;
 
+$background-color:    #fdfdfd;
 $text-color:          #1a1a1a;
 
 $name-color:          lighten($text-color, 15.5%);
@@ -17,8 +18,8 @@ $sub-title-color:     lighten($text-color, 55%);
 $link-color:          lighten($text-color, 65%);
 $link-hover-color:    lighten($text-color, 55%);
 
-$background-color:    #fdfdfd;
 $brand-color:         #1193f6;
+$brand-color-light:   lighten($brand-color, 10%);
 $brand-color-dark:    darken($brand-color, 10%);
 
 $grey-color:          #828282;
