@@ -16,7 +16,6 @@ $name-color:          lighten($text-color, 15.5%);
 $nickname-color:      lighten($text-color, 75%);
 $sub-title-color:     lighten($text-color, 55%);
 $link-color:          lighten($text-color, 65%);
-$link-hover-color:    lighten($text-color, 55%);
 
 $brand-color:         #1193f6;
 $brand-color-light:   lighten($brand-color, 10%);
@@ -25,15 +24,6 @@ $brand-color-dark:    darken($brand-color, 10%);
 $grey-color:          #828282;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
-
-$on-palm:             768px;
-$on-laptop:           800px;
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -60,9 +50,9 @@ $on-laptop:           800px;
 
 @mixin box-shadow($top, $left, $blur, $color, $inset: false) {
   @if $inset {
-    -webkit-box-shadow:inset $top $left $blur $color;
-    -moz-box-shadow:inset $top $left $blur $color;
-    box-shadow:inset $top $left $blur $color;
+    -webkit-box-shadow: inset $top $left $blur $color;
+    -moz-box-shadow: inset $top $left $blur $color;
+    box-shadow: inset $top $left $blur $color;
   } @else {
     -webkit-box-shadow: $top $left $blur $color;
     -moz-box-shadow: $top $left $blur $color;
