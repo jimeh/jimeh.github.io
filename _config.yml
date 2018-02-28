@@ -1,24 +1,78 @@
-# Site settings
 title: Jim Myhrberg (jimeh)
-person_name: Jim Myhrberg
-person_nickname: jimeh
-email: pbagnpg\100wvzru\056zr
-mailto: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6s%6r%74%61%63%74@%6n%69%6q%65%68.%6q%65"
 description: Crazy-Ass Software Engineering Mercenary
-baseurl: "" # the subpath of your site, e.g. /blog/
+author:
+  name: Jim Myhrberg
+  nickname: jimeh
+  twitter: jimeh
 hostname: jimeh.me # used to determine if google analytics should be triggered
-url: http://jimeh.me # the base hostname & protocol for your site
+url: https://jimeh.me # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
 permalink: /:title/
 
-blog_url: https://jimeh.io/
-cv_url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
-vcard_url: http://assets.jimeh.me/jim-myhrberg.vcf
-twitter_username: jimeh
-github_username: jimeh
-linkedin_username: jimeh
-facebook_username: jimeh
-flickr_username: jimeh
-lastfm_username: jimeh
+# stuff for jekyll-seo-tag
+social:
+  name: Jim Myhrberg
+  links:
+    - https://twitter.com/jimeh
+    - https://github.com/jimeh
+    - https://jimeh.io/
+    - http://www.linkedin.com/in/jimeh
+    - http://www.last.fm/user/jimeh
+    - https://flickr.com/photos/jimeh/
+    - https://keybase.io/jimeh
 
-# Build settings
-markdown: kramdown
+twitter:
+  username: jimeh
+
+# main page content
+email:
+  title: pbagnpg\100wvzru\056zr
+  href: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6s%6r%74%61%63%74@%6n%69%6q%65%68.%6q%65"
+
+links:
+  - name: twitter
+    url: https://twitter.com/jimeh
+    class: fa-twitter
+  - name: github
+    url: https://github.com/jimeh
+    class: fa-github
+  - name: blog
+    url: https://jimeh.io/
+    class: fa-medium
+  - name: linkedin
+    url: https://www.linkedin.com/in/jimeh
+    class: fa-linkedin
+  - name: last.fm
+    url: https://www.last.fm/user/jimeh
+    class: fa-lastfm
+  - name: flickr
+    url: https://flickr.com/photos/jimeh
+    class: fa-flickr
+  - name: vcard
+    id: vcard
+    type: download
+    url: http://assets.jimeh.me/jim-myhrberg.vcf
+    class: fa-user
+  - name: cv (pdf)
+    id: resume
+    type: download
+    url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
+    class: fa-file-text-o
+
+# additional stuff
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - README.md
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
