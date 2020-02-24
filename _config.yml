@@ -1,5 +1,5 @@
 title: Jim Myhrberg (jimeh)
-description: Crazy-Ass Software Engineering Mercenary
+description: Software Engineering Mercenary
 author:
   name: Jim Myhrberg
   nickname: jimeh
@@ -30,34 +30,34 @@ email:
   href: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6s%6r%74%61%63%74@%6n%69%6q%65%68.%6q%65"
 
 links:
-  - name: twitter
-    url: https://twitter.com/jimeh
-    class: fa-twitter
   - name: github
     url: https://github.com/jimeh
-    class: fa-github
+    class: fab fa-github
+  - name: twitter
+    url: https://twitter.com/jimeh
+    class: fab fa-twitter
   - name: blog
     url: https://jimeh.io/
-    class: fa-medium
+    class: far fa-newspaper
   - name: linkedin
     url: https://www.linkedin.com/in/jimeh
-    class: fa-linkedin
+    class: fab fa-linkedin-in
   - name: last.fm
     url: https://www.last.fm/user/jimeh
-    class: fa-lastfm
+    class: fab fa-lastfm
   - name: flickr
     url: https://flickr.com/photos/jimeh
-    class: fa-flickr
+    class: fab fa-flickr
   - name: vcard
     id: vcard
     type: download
-    url: http://assets.jimeh.me/jim-myhrberg.vcf
-    class: fa-user
+    url: https://assets.jimeh.me/jim-myhrberg.vcf
+    class: far fa-address-card
   - name: cv (pdf)
     id: resume
     type: download
-    url: http://assets.jimeh.me/jim-myhrberg-cv.pdf
-    class: fa-file-text-o
+    url: https://assets.jimeh.me/jim-myhrberg-cv-5.0.0.pdf
+    class: fas fa-file-alt
 
 # additional stuff
 exclude:
@@ -71,8 +71,7 @@ plugins:
   - jekyll-seo-tag
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: "default"

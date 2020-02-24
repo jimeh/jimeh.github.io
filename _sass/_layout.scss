@@ -13,7 +13,7 @@
   }
 
   .site-header-container {
-    width: 585px;
+    width: 580px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,20 +25,18 @@
   width: 128px;
   height: 128px;
   float: left;
-  border: 2px solid white;
   @include border-radius(400px);
-  @include box-shadow(0px, 0px, 7px, rgba(0, 0, 0, 0.3));
 }
 
 .content {
   display: block;
-  padding: 9px 0px 0px 160px;
+  padding: 9px 0px 0px 155px;
   position: relative;
   text-align: left;
 }
 
 .site-title {
-  font-size: 47px;
+  font-size: 3.36em;
   position: relative;
 
   .site-name {
@@ -52,7 +50,7 @@
   }
 
   .site-description {
-    font-size: 14px;
+    font-size: 0.383em;
     color: $sub-title-color;
     text-transform: uppercase;
     position: absolute;
@@ -63,7 +61,7 @@
 
 .site-links {
   font-size: 22px;
-  padding: 2px 0px 0px 6px;
+  padding: 6px 0px 0px 6px;
 
   a {
     float: left;
@@ -91,7 +89,7 @@
 
 @media screen and (max-width: 768px) {
   .site-links {
-    padding: 1px 0px 0px 0px;
+    padding: 6px 0px 0px 0px;
     margin-left: -2px;
 
     a {
@@ -128,10 +126,9 @@
   }
 
   .site-title {
-    font-size: 34px;
+    font-size: 2.43em;
 
     .site-description {
-      font-size: 10px;
       top: 36px;
       left: 9px;
     }
@@ -139,6 +136,7 @@
 
   .site-links {
     font-size: 16px;
+
     a {
       .link-text {
         @include transform(translate(0%, 0%));
@@ -155,21 +153,20 @@
   }
 
   .site-avatar {
-    width: 80px;
-    height: 80px;
+    width: 128px;
+    height: 128px;
     float: none;
   }
 
   .content {
     padding: 0px 10px 0px 10px;
-    text-align: center
+    text-align: center;
   }
 
   .site-title {
-    font-size: 30px;
+    font-size: 2.14em;
 
     .site-description {
-      font-size: 9px;
       top: 32px;
       left: 7px;
     }
@@ -177,7 +174,7 @@
 
   .site-links {
     font-size: 14px;
-    padding: 3px 0px 0px 0px;
+    padding: 6px 0px 0px 0px;
     margin-left: 0px;
     text-align: center;
 
