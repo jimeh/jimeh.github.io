@@ -7,11 +7,11 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
     {% seo title=false %}
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="shortcut icon" href="/favicon.ico?{{ site.time | date: '%s%N' }}" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?{{ site.time | date: '%s%N' }}" />
     <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans:400italic,700italic,400,700' rel='stylesheet' type='text/css'>
     <script src="https://kit.fontawesome.com/dc60666aeb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?{{ site.time | date: '%s%N' }}">
   </head>
   <body>
 {{ content }}
