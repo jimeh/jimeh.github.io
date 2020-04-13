@@ -56,7 +56,7 @@ links:
   - name: cv (pdf)
     id: resume
     type: download
-    url: https://assets.jimeh.me/jim-myhrberg-cv-5.0.0.pdf
+    url: https://jimeh.me/cv
     class: fas fa-file-alt
 
 # additional stuff
