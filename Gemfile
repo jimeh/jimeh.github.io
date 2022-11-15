@@ -7,4 +7,5 @@ gem 'github-pages'
 group :development do
   gem 'rake'
   gem 'rubocop'
+  gem 'webrick'
 end
