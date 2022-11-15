@@ -36,6 +36,10 @@ links:
   - name: twitter
     url: https://twitter.com/jimeh
     class: fa-brands fa-twitter
+  - name: mastodon
+    url: "https://mastodon.bah.io/@jimeh"
+    class: fa-brands fa-mastodon
+    rel: me
   - name: blog
     url: https://jimeh.io/
     class: fa-solid fa-newspaper
