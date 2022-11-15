@@ -63,8 +63,9 @@ links:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - Rakefile
+  - Makefile
   - README.md
+  - Rakefile
 
 plugins:
   - jekyll-sitemap
