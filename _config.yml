@@ -37,7 +37,7 @@ links:
     url: https://twitter.com/jimeh
     class: fa-brands fa-twitter
   - name: mastodon
-    url: "https://mastodon.bah.io/@jimeh"
+    url: "https://mastodon.social/@jimeh"
     class: fa-brands fa-mastodon
     rel: me
   - name: blog
