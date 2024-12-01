@@ -13,8 +13,10 @@ permalink: /:title/
 social:
   name: Jim Myhrberg
   links:
-    - https://twitter.com/jimeh
     - https://github.com/jimeh
+    - https://bsky.app/profile/jimeh.me
+    - https://mastodon.social/@jimeh
+    - https://twitter.com/jimeh
     - https://jimeh.io/
     - http://www.linkedin.com/in/jimeh
     - http://www.last.fm/user/jimeh
@@ -33,9 +35,9 @@ links:
   - name: github
     url: https://github.com/jimeh
     class: fa-brands fa-github
-  - name: twitter
-    url: https://twitter.com/jimeh
-    class: fa-brands fa-twitter
+  - name: bluesky
+    url: https://bsky.app/profile/jimeh.me
+    class: fa-brands fa-bluesky
   - name: mastodon
     url: "https://mastodon.social/@jimeh"
     class: fa-brands fa-mastodon
